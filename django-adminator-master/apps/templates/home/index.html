@@ -1,0 +1,80 @@
+
+{% block content %}
+
+
+<style>
+  .word{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 150%;
+    margin-top: -3%;
+    /* margin: 30px auto; */
+
+  } 
+  
+  .card{
+    /* box-shadow: 0 9px 9px 0 rgba(1, 1, 2, 0.2); */
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;;
+    border-radius: 6px;
+    margin: 10px auto;
+    width: 35%;
+    height: 60%;
+    margin: 10%;
+    transition: 0.3s;
+    background-color:rgb(2, 2, 90);
+    padding-right: 20%;
+    float: none;
+    position: relative;
+    left: 12%;
+    
+  }
+  
+  .container {
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(254, 254, 255);
+    font-style: italic;
+    
+    padding: 2px 16px;
+    float: none;
+    position: relative;
+    left: 30%;
+    
+   
+}
+.lord{
+  padding-bottom: 10%;
+  margin: 30px auto;
+  float: none;
+  position: relative;
+  left: 25%;
+
+}
+
+
+  
+
+ 
+</style>
+
+
+
+   <div class="card">
+   
+    <!-- <img class="lord" src="{{ ASSETS_ROOT }}/static/images/right2.png" alt="" style="width: 150px; height: 150px;"> -->
+ 
+              <div class="container">
+                <img class="lord" src="{{ ASSETS_ROOT }}/static/images/right2.png" alt="" style="width: 150px; height: 150px;">
+
+                <h5 class="word">SUCCESSFUL LOGIN</h5>
+              </div>
+
+          </div>
+             
+      
+            
+{% endblock content %}
+
+
+{% block javascripts %}{% endblock javascripts %}
